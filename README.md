@@ -19,9 +19,9 @@ This module uses [ModelSim Intel FPGA](), [GIT](https://git-scm.com/download/win
     $ cd vhdl-basics
     $ code .
     ```
-    From VSC View menu, choose Terminal.  
+    Click on the count_bin.vhd on the left pane to view its contents.
     
-3. In the VCS Terminal, create a "work" library:
+3. From the VSC View menu, choose Terminal, in the VCS Terminal, create a "work" library:
 
     ```sh
     $ vlib work
