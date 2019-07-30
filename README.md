@@ -19,7 +19,7 @@ These examples use [ModelSim Intel FPGA](http://fpgasoftware.intel.com/?edition=
     $ cd vhdl-basics
     $ code .
     ```
-    Click on the count_bin.vhd on the left pane to view its contents.
+    Click on the count_bin.vhd file in the left pane to view its contents.
     
 3. From the VSC View menu, choose Terminal, in the VCS Terminal, create a "work" library:
 
