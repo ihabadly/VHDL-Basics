@@ -3,7 +3,7 @@ Basic VHDL examples
 
 ## Install
 
-This module uses [ModelSim Intel FPGA](), [GIT](https://git-scm.com/download/win), [Visual Studio Code](), make sure they are installed locally on your computer before proceeding.
+These examples uses [ModelSim Intel FPGA](http://fpgasoftware.intel.com/?edition=lite), [GIT](https://git-scm.com/download/win), [Visual Studio Code](https://code.visualstudio.com/download), make sure they are installed locally on your computer before proceeding.
 
 ## Usage
 
