@@ -33,7 +33,7 @@ These examples uses [ModelSim Intel FPGA](http://fpgasoftware.intel.com/?edition
     $ vcom count_bin.vhd
     ```
     
-5. Simulate your design, for example the binary counter:
+5. Simulate your design, for example to simulate the binary counter:
 
     ```sh
     $ vsim work.count_bin
