@@ -4,16 +4,14 @@ use ieee.std_logic_arith.all;
 
 entity reg_par_shift is
   port (clk, rst: in std_logic;
-        shift_right, shift_left: in std_logic;
+        shift_control : in std_logic_vector(1 downto 0);
         reg_in: in std_logic_vector(7 downto 0);
         reg_out: out std_logic_vector(7 downto 0));
 end entity reg_par_shift;
 
 architecture rtl of reg_par_shift is
-  signal shift_control: std_logic_vector(1 downto 0);
   signal reg_temp: std_logic_vector(7 downto 0);
 begin
-  shift_control <= shift_left & shift_right;
   process (rst, clk)
   begin
     if (rst = '1') then
