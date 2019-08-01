@@ -27,15 +27,16 @@ These examples use [ModelSim and Quartus from Intel FPGA](http://fpgasoftware.in
     $ vlib work
     ```
     
-4. Compile any of the design units, for example, to compile the binary counter example use the file "count_bin.vhd":
+4. Compile any of the design units, For example, to compile the binary counter design and its testbench:
 
     ```sh
     $ vcom count_bin.vhd
+    $ vcom count_bin_tb.vhd
     ```
     
-5. Simulate your design, for example to simulate the binary counter:
+5. Simulate your design. For example, to simulate the binary counter testebench:
 
     ```sh
-    $ vsim work.count_bin
+    $ vsim work.count_bin_tb
     ```
   
