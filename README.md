@@ -34,7 +34,7 @@ These examples use [ModelSim and Quartus from Intel FPGA](http://fpgasoftware.in
     $ vcom count_bin_tb.vhd
     ```
     
-5. Simulate your design. For example, to simulate the binary counter testebench:
+5. Simulate your design. For example, to simulate the binary counter testbench:
 
     ```sh
     $ vsim work.count_bin_tb
