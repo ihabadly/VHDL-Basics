@@ -7,7 +7,7 @@ These examples use [ModelSim and Quartus from Intel FPGA](http://fpgasoftware.in
 
 ## Usage
 
-1. Grab a copy of this repository to your computer local folder (i.e. C:\projects):
+1. Grab a copy of this repository to your computer's local folder (i.e. C:\projects):
 
     ```sh
     $ cd projects
